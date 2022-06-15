@@ -9,6 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.GroupApp">
+        <activity android:name=".Userdata"></activity>
+        <activity android:name=".AlturaUser" />
+        <activity android:name=".PesoUser" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
